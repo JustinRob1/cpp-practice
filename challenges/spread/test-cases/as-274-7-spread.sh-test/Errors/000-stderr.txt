@@ -1,0 +1,59 @@
+spread.cpp: In function ‘int main()’:
+spread.cpp:21:30: error: no matching function for call to ‘min(long long int&, int&)’
+     minn = min(minn, array[i]);
+                              ^
+In file included from /usr/include/c++/7/bits/char_traits.h:39:0,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from spread.cpp:1:
+/usr/include/c++/7/bits/stl_algobase.h:195:5: note: candidate: template<class _Tp> const _Tp& std::min(const _Tp&, const _Tp&)
+     min(const _Tp& __a, const _Tp& __b)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:195:5: note:   template argument deduction/substitution failed:
+spread.cpp:21:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long long int’ and ‘int’)
+     minn = min(minn, array[i]);
+                              ^
+In file included from /usr/include/c++/7/bits/char_traits.h:39:0,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from spread.cpp:1:
+/usr/include/c++/7/bits/stl_algobase.h:243:5: note: candidate: template<class _Tp, class _Compare> const _Tp& std::min(const _Tp&, const _Tp&, _Compare)
+     min(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:243:5: note:   template argument deduction/substitution failed:
+spread.cpp:21:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long long int’ and ‘int’)
+     minn = min(minn, array[i]);
+                              ^
+spread.cpp:22:30: error: no matching function for call to ‘max(long long int&, int&)’
+     maxx = max(maxx, array[i]);
+                              ^
+In file included from /usr/include/c++/7/bits/char_traits.h:39:0,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from spread.cpp:1:
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note: candidate: template<class _Tp> const _Tp& std::max(const _Tp&, const _Tp&)
+     max(const _Tp& __a, const _Tp& __b)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:219:5: note:   template argument deduction/substitution failed:
+spread.cpp:22:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long long int’ and ‘int’)
+     maxx = max(maxx, array[i]);
+                              ^
+In file included from /usr/include/c++/7/bits/char_traits.h:39:0,
+                 from /usr/include/c++/7/ios:40,
+                 from /usr/include/c++/7/ostream:38,
+                 from /usr/include/c++/7/iostream:39,
+                 from spread.cpp:1:
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note: candidate: template<class _Tp, class _Compare> const _Tp& std::max(const _Tp&, const _Tp&, _Compare)
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+/usr/include/c++/7/bits/stl_algobase.h:265:5: note:   template argument deduction/substitution failed:
+spread.cpp:22:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long long int’ and ‘int’)
+     maxx = max(maxx, array[i]);
+                              ^
+chmod: cannot access 'spread': No such file or directory
+/home/cmput274/Desktop/AdjustedMP/spread/soln/.build/build.sh: line 8: ./spread: No such file or directory
+
+Expected file "test-cases/as-274-7-spread.sh-test/Expected/000-stderr.txt" has no output file match
