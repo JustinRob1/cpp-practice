@@ -1,1 +1,3 @@
 # cpp-practice
+
+This repository contains a collection of C++ coding challenges, algorithmic exercises, and small projects completed for practice and coursework. The code covers a variety of topics including data structures, graph algorithms, file processing, and problem-solving techniques. Each subdirectory typically includes a problem description, solution code, test cases, and supporting scripts or Makefiles. These projects and exercises were completed when I first started learning C++.
