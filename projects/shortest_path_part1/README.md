@@ -1,4 +1,4 @@
-# Assignment Part 1: Shortest Path on Edmonton Road Network
+# Assignment Part 1: Shortest Path on Road Network
 
 ## Summary
 

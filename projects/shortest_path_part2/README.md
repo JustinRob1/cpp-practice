@@ -4,6 +4,10 @@
 
 This project implements an interactive navigation system for the Edmonton road network. It consists of a C++ server that computes shortest paths using Dijkstra's algorithm and a Python client that provides a graphical interface for users to select start and end points on a map. The server and client communicate via named pipes. The system displays the computed route on the map and allows for interactive exploration and repeated route queries.
 
+## Screenshot
+
+![Navigation System Screenshot](screenshot.png)
+
 ## Problem Description
 
 - The server reads the Edmonton road network from `edmonton-roads-2.0.1.txt` and builds a weighted directed graph, where vertices represent intersections and edges represent road segments weighted by Manhattan distance.
